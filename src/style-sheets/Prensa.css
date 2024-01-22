@@ -1,0 +1,62 @@
+#prensa {
+    background-image: url('../imagenes/Portada 3.jpeg');
+    padding: 20px 0px;
+}
+
+.contenido_prensa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenido_prensa img {
+    width: 25vw;
+    height: 25vw;
+    margin-top: 10px;
+}
+
+.contenido_prensa ul {
+    width: 50%;
+    text-align: left;
+    font-size: 25px;
+    line-height: 1.5;
+    color: rgb(191, 49, 49);
+}
+
+.contenido_prensa li {
+    margin-bottom: 20px;
+}
+.contenido_prensa a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #000000; /* Cambia #ffcc00 al color que desees para el resaltado */
+
+&:hover {
+    text-decoration: underline;
+}   
+}
+
+@media screen and (max-width: 550px) {
+    .contenido_prensa {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: left;
+    }
+    
+    .contenido_prensa img {
+        width: 50vw;
+        height: 50vw;
+        margin-top: 10px;
+    }
+    
+    .contenido_prensa ul {
+        font-size: 14px;
+        width: 80%;
+        margin-right: 20px;
+    
+    }
+    .contenido_prensa li, .contenido_prensa a{
+        margin-bottom: 10px;
+    }
+
+  }

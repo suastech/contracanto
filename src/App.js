@@ -1,25 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import Bienvenida from './Components/Bienvenida';
+import Musica from './Components/Musica';
+import Prensa from './Components/Prensa';
+import Apoyar from './Components/Apoyar';
+import Footer from './Components/Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+return (
+  <body>
+    <Header/>
+    <Bienvenida/>
+    <Musica/>
+    <Prensa/>
+    <Apoyar/>
+    <Footer/>
+  </body>
+
+);
 }
 
 export default App;
+

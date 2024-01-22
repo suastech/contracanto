@@ -1,0 +1,28 @@
+footer {
+    padding: 5px;
+    background-color: hsl(0, 56%, 42%);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-footer img {
+    height: 101px;
+    width: auto;
+    margin-left: 0px;
+    margin-top: 3px;
+}
+
+.contacto-footer {
+    font-size: 24px;
+    color: white;
+    margin-left: 800px;
+}
+
+.redes-footer img {
+    max-width: 30px;
+    height: auto;
+    margin-right: 35px;
+}
