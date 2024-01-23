@@ -1,13 +1,12 @@
-body {
+.main {
 }
 
-body h1 {
+.main h1 {
   color: rgb(191, 49, 49);
   margin: 0;
-  font-size: 40px;
-  width: fit-content;
+  font-size: 50px;
   font-weight: bold;
-  background-color: #000000; /* Cambia #ffcc00 al color que desees para el resaltado */
+  text-align: center;
 }
 
 .resaltado {

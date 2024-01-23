@@ -8,22 +8,17 @@ function Footer() {
 
 return (
 <footer> 
-  <div class="logo-footer">
-            <img src={logo} alt="Logotipo"/>
-        </div>
-        <div class="contacto-footer">
-            Contacto:
-        </div>
-        <div class="redes-footer">
-            <a href="https://www.instagram.com/contracantoatlacho/" target="_blank" rel="noreferrer" noopener> 
-                <img src={instagram} alt="Instagram"/> </a>
-            <a href="https://www.facebook.com/ImmigrantChildrensChoir" target="_blank" rel="noreferrer" noopener> 
-                <img src={facebook} alt="Facebook"/> </a>
-            <a href="mailto:correo@example.com"> 
-                <img src={email} alt="Email"/> </a>
-        </div>
-
-   </footer>
+    <img src={logo} alt="Logotipo"/>
+    <h6>ContraCanto, 2024&copy; </h6>
+    <div className='contacto'>
+        <a href="https://www.instagram.com/contracantoatlacho/" target="_blank" rel="noreferrer" noopenernoopener='true'> 
+        <img src={instagram} alt="Instagram"/> </a>
+        <a href="https://www.facebook.com/ImmigrantChildrensChoir" target="_blank" rel="noreferrer" noopenernoopener='true'> 
+        <img src={facebook} alt="Facebook"/> </a>
+        <a href="mailto:correo@example.com"> 
+        <img src={email} alt="Email"/> </a>
+    </div>
+</footer>
 ) 
 
 }

@@ -1,34 +1,34 @@
-#apoyar {
+.apoyar {
     text-align: center;
-    padding: 20px;
     background-color: rgb(209, 209, 255);
-    background-image: url('../imagenes/Portada\ 2.jpeg');
-
+    /*background-image: url('../imagenes/Portada\ 2.jpeg')*/
+    padding-bottom: 20px;
 }
 
-#apoyar p {
+.apoyar p {
     font-size: 25px;
     color: rgb(191, 49, 49);
     line-height: 1.5;
     margin: 10px 60px;
 }
 
-#apoyar img {
+.apoyar img {
     width: 60vw;
+    margin-top: 10px;
 }
 
-#apoyar button {
-    width: 500px;
-    height: 50px;
+.apoyar button {
+    width: 70vw;
+    height: 40px;
     border-radius: 20px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: rgb(191, 49, 49);
     background-image: url('../imagenes/seemore2.png'); 
-    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-repeat: no-repeat; 
     background-position: center;
+    background-size: contain;
     border: 0px;
-
     &:hover {
         background-color: rgb(238, 69, 69);
     }
@@ -36,3 +36,30 @@
         transform: scale(0.95);
     } 
 }
+
+#patreon {
+    width: 130px;
+    cursor: pointer;
+    margin-top: 20px;
+&:hover {
+    box-shadow: 0 0 5px rgb(201, 63, 63);
+
+}
+&:active {
+    transform: scale(0.9);
+}
+}
+
+@media screen and (max-width: 550px) {
+    .apoyar button {
+        width: 70vw;
+        height: 30px;
+    } 
+    .apoyar p{
+        font-size: 15px;
+        margin: 0px;
+    }
+    #patreon {
+        width: 90px;
+    }
+  }

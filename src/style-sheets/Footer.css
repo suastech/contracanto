@@ -1,28 +1,43 @@
 footer {
-    padding: 5px;
     background-color: hsl(0, 56%, 42%);
     height: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-
 }
 
-.logo-footer img {
-    height: 101px;
+footer img {
+    height: 90px;
     width: auto;
-    margin-left: 0px;
-    margin-top: 3px;
+    margin-right: auto;
+    padding-left: 10px;
+
 }
 
-.contacto-footer {
-    font-size: 24px;
-    color: white;
-    margin-left: 800px;
+footer h6 {
+    font-size: 20px;
+    margin-right: auto;
 }
 
-.redes-footer img {
-    max-width: 30px;
+
+.contacto img {
+    width: 30px;
     height: auto;
-    margin-right: 35px;
+    padding-right: 10px;
 }
+
+
+@media screen and (max-width: 550px) {
+    footer img {
+        width: 70px;
+        height: auto;
+    }
+    footer h6 {
+        font-size: 14px;
+        margin-left: 10px;
+    } 
+    .contacto img {
+        width: 20px;
+        margin-left: 0px;
+    }
+  }

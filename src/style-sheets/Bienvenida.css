@@ -1,5 +1,4 @@
 #Bienvenida {
-    
     text-align: center;
     background-image: url('../imagenes/Portada\ 5.jpeg');
     padding: 20px 0px;
@@ -7,7 +6,7 @@
 
 #Bienvenida p {
     color: rgb(197, 69, 69);
-    font-size:1.6em;
+    font-size:2em;
     line-height: 2;
     margin: 20px 150px;
     background-color: black;

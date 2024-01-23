@@ -7,9 +7,9 @@ return (
     <div id="musica">
         <h1>Nuestra música</h1>
         
-        <div class="youtube">
-            <iframe width="30%" height="250px" src="https://www.youtube.com/embed/dSGLmmKwLG0" title="La Llorona" frameborder="0" allowfullscreen/>
-            <iframe width="30%" height="250px" src="https://www.youtube.com/embed/RA6agOy24Gs" title="Idilio" frameborder="0" allowfullscreen/>
+        <div className="youtube">
+            <iframe width="30%" height="250px" src="https://www.youtube.com/embed/dSGLmmKwLG0" title="La Llorona" frameBorder="0" allowFullScreen/>
+            <iframe width="30%" height="250px" src="https://www.youtube.com/embed/RA6agOy24Gs" title="Idilio" frameBorder="0" allowFullScreen/>
         </div>
 
         <div id="playlist" >
@@ -19,11 +19,10 @@ return (
                 width="68%"
                 height="152"
                 frameBorder="0"
-                allowfullscreen=""
+                allowFullScreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy">
             </iframe>
-
         </div>
 
     </div>

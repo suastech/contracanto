@@ -2,8 +2,9 @@
     text-align: center;
     background-color: rgb(223, 223, 223);
     padding: 10px;
-    background-image: url('../imagenes/Portada\ 6.jpeg');
     color: rgb(191, 49, 49);
+    /*background-image: url('../imagenes/Portada\ 6.jpeg');*/
+    background-color: aliceblue;
 
 }
 
