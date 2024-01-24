@@ -9,7 +9,7 @@
     font-size: 25px;
     color: rgb(191, 49, 49);
     line-height: 1.5;
-    margin: 10px 60px;
+    margin: 10px 90px;
 }
 
 .apoyar img {
@@ -43,7 +43,6 @@
     margin-top: 20px;
 &:hover {
     box-shadow: 0 0 5px rgb(201, 63, 63);
-
 }
 &:active {
     transform: scale(0.9);

@@ -19,7 +19,8 @@ return (
         {isApoyar && (
             <div className="apoyar">
                 <p>
-                    Mensaje del director:<br/>
+                    <b>Mensaje del director</b>
+                    <br/>
                     Soy Luis Arturo Suaste, pianista y director del coro. En junio de 2022 fundé el Coro de Niñas de Atlacholoaya, una comunidad rural morelense con graves desafíos en el acceso a la educación y la cultura.
                     Además de la formación musical, hemos tejido alianzas con organizaciones que brindan a las participantes talleres de desarrollo humano, atención psicológica y apoyo alimentario.
                     Es para mí un honor trabjar con chicas tan talentosas y que ponen todo su empeño en superarse día con día.

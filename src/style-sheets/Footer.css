@@ -7,11 +7,10 @@ footer {
 }
 
 footer img {
-    height: 90px;
+    height: 100%;
     width: auto;
     margin-right: auto;
-    padding-left: 10px;
-
+    padding-left: 0px;
 }
 
 footer h6 {
