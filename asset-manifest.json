@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/contracanto/static/css/main.f24742cc.css",
-    "main.js": "/contracanto/static/js/main.ab4517c0.js",
+    "main.css": "/contracanto/static/css/main.74f675b9.css",
+    "main.js": "/contracanto/static/js/main.a1eed5f8.js",
     "static/js/787.02216e3b.chunk.js": "/contracanto/static/js/787.02216e3b.chunk.js",
     "static/media/prensa2.png": "/contracanto/static/media/prensa2.18d14433eb91ec46583d.png",
     "static/media/Portada 5.jpeg": "/contracanto/static/media/Portada 5.673954ecf3b296565597.jpeg",
@@ -13,12 +13,12 @@
     "static/media/logo contracanto negro.jpg": "/contracanto/static/media/logo contracanto negro.9db4fc1e2f6edfde837e.jpg",
     "static/media/Patreon_logo.svg.png": "/contracanto/static/media/Patreon_logo.svg.1b79c3d456033d8796da.png",
     "index.html": "/contracanto/index.html",
-    "main.f24742cc.css.map": "/contracanto/static/css/main.f24742cc.css.map",
-    "main.ab4517c0.js.map": "/contracanto/static/js/main.ab4517c0.js.map",
+    "main.74f675b9.css.map": "/contracanto/static/css/main.74f675b9.css.map",
+    "main.a1eed5f8.js.map": "/contracanto/static/js/main.a1eed5f8.js.map",
     "787.02216e3b.chunk.js.map": "/contracanto/static/js/787.02216e3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f24742cc.css",
-    "static/js/main.ab4517c0.js"
+    "static/css/main.74f675b9.css",
+    "static/js/main.a1eed5f8.js"
   ]
 }
