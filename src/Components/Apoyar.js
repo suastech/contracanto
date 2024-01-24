@@ -1,5 +1,5 @@
 import '../style-sheets/Apoyar.css'
-import foto_apoyar from '../imagenes/presentación2.jpg'
+import foto_apoyar from '../imagenes/presentación.jpg'
 import patreon from "../imagenes/Patreon_logo.svg.png"
 import { useState } from 'react'
 

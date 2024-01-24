@@ -12,7 +12,7 @@ return (
         </div>
         <div className="youtube">
             <iframe width="30%" height="250px" src="https://www.youtube.com/embed/j6Asb0tRxQ4" title="ContraCanto" frameBorder="0" allowFullScreen/>
-            <iframe width="30%" height="250px" src="https://www.youtube.com/embed/U4NVRYUqBcI" title="Cielito lindo" frameBorder="0" allowFullScreen/>
+            <iframe width="30%" height="250px" src="https://www.youtube.com/embed/LyZESKc2VvQ" title="Entrevista" frameBorder="0" allowFullScreen/>
         </div>
 
         {/*

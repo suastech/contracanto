@@ -1,7 +1,10 @@
 .apoyar {
     text-align: center;
-    background-color: rgb(209, 209, 255);
-    /*background-image: url('../imagenes/Portada\ 2.jpeg')*/
+    background-color: rgb(200, 200, 200);
+    /*background-image: url('../imagenes/fondo.jpg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;*/
     padding-bottom: 20px;
 }
 
