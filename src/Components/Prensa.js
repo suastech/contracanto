@@ -1,12 +1,16 @@
 import "../style-sheets/Prensa.css"
 import prensa_foto from "../imagenes/prensa2.png"
 
-function Prensa() {
+function Prensa({isSpanish}) {
 
 return (
 
 <div id="prensa">
-    <h1><span className="resaltado">Prensa</span> </h1>    
+    {isSpanish?
+    <h1><span className="resaltado">Prensa</span> </h1>
+    :
+    <h1><span className="resaltado">Press</span> </h1>}   
+    
     <div className="contenido_prensa">
         <ul className="lista_enlaces_p">
             <li><a href="https://www.lajornadamorelos.mx/opinion/contracanto-el-coro-de-ninas-de-atlacholoaya/" target="_blank" rel="noreferrer" noopener='true'>La Jornada Morelos. ContraCanto, el coro de niñas de Atlacholoaya</a></li>

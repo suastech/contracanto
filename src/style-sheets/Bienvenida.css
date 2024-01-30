@@ -1,6 +1,6 @@
 #Bienvenida {
     text-align: center;
-    background-image: url('../imagenes/Portada\ 5.jpeg');
+    background-color: rgb(221, 221, 221);
     padding: 20px 0px;
 }
 
@@ -9,7 +9,11 @@
     font-size:2em;
     line-height: 2;
     margin: 20px 150px;
-    background-color: black;
+}
+
+#foto-bienvenida {
+    width: 400px;
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 550px) {
@@ -17,5 +21,8 @@
         font-size: 15px;
         padding: 0px 0px;
         margin: 15px 10px;
+    }
+    #foto-bienvenida {
+        width: 60vw;
     }
   }

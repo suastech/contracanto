@@ -9,7 +9,6 @@ function Footer() {
 return (
 <footer> 
     <img src={logo} alt="Logotipo"/>
-    <h6>ContraCanto, 2024&copy; </h6>
     <div className='contacto'>
         <a href="https://www.instagram.com/contracantoatlacho/" target="_blank" rel="noreferrer" noopenernoopener='true'> 
         <img src={instagram} alt="Instagram"/> </a>

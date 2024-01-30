@@ -1,11 +1,15 @@
 import '../style-sheets/Musica.css'
 
 
-function Musica() {
+function Musica({isSpanish}) {
 
 return (
+    
     <div id="musica">
-        <h1>Nuestra música</h1>  
+        {isSpanish?
+        <h1>Nuestra música</h1>:
+        <h1>Our Music</h1>}
+  
         <div className="youtube">
             <iframe width="30%" height="250px" src="https://www.youtube.com/embed/dSGLmmKwLG0" title="La Llorona" frameBorder="0" allowFullScreen/>
             <iframe width="30%" height="250px" src="https://www.youtube.com/embed/RA6agOy24Gs" title="Idilio" frameBorder="0" allowFullScreen/>
