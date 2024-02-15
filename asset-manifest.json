@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/contracanto/static/css/main.af389b34.css",
-    "main.js": "/contracanto/static/js/main.265be0ed.js",
+    "main.css": "/contracanto/static/css/main.505f6d15.css",
+    "main.js": "/contracanto/static/js/main.950e5907.js",
     "static/js/787.02216e3b.chunk.js": "/contracanto/static/js/787.02216e3b.chunk.js",
     "static/media/prensa2.png": "/contracanto/static/media/prensa2.18d14433eb91ec46583d.png",
-    "static/media/Portada 5.jpeg": "/contracanto/static/media/Portada 5.673954ecf3b296565597.jpeg",
+    "static/media/coro3.jpeg": "/contracanto/static/media/coro3.24132726eacc44dd156b.jpeg",
     "static/media/Portada 3.jpeg": "/contracanto/static/media/Portada 3.264ab5ffe6fbe4e6a35c.jpeg",
     "static/media/Portada 7.jpeg": "/contracanto/static/media/Portada 7.351e97f98b896a7e5792.jpeg",
-    "static/media/presentación.jpg": "/contracanto/static/media/presentación.5c6a873ad18c443c68b4.jpg",
+    "static/media/coro5.jpg": "/contracanto/static/media/coro5.33cec1e8a7c8a4c606a4.jpg",
     "static/media/logobyn.jpg": "/contracanto/static/media/logobyn.1802e7fa3cd2ae86944a.jpg",
     "static/media/instagram logo.png": "/contracanto/static/media/instagram logo.f0a99f089b23fadacf4e.png",
     "static/media/logo contracanto negro.jpg": "/contracanto/static/media/logo contracanto negro.9db4fc1e2f6edfde837e.jpg",
     "static/media/Patreon_logo.svg.png": "/contracanto/static/media/Patreon_logo.svg.1b79c3d456033d8796da.png",
     "index.html": "/contracanto/index.html",
-    "main.af389b34.css.map": "/contracanto/static/css/main.af389b34.css.map",
-    "main.265be0ed.js.map": "/contracanto/static/js/main.265be0ed.js.map",
+    "main.505f6d15.css.map": "/contracanto/static/css/main.505f6d15.css.map",
+    "main.950e5907.js.map": "/contracanto/static/js/main.950e5907.js.map",
     "787.02216e3b.chunk.js.map": "/contracanto/static/js/787.02216e3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af389b34.css",
-    "static/js/main.265be0ed.js"
+    "static/css/main.505f6d15.css",
+    "static/js/main.950e5907.js"
   ]
 }
