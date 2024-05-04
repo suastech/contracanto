@@ -38,7 +38,7 @@ return (
                     Soy Luis Arturo Suaste, pianista y director del coro. En junio de 2022 fundé el Coro de Niñas de Atlacholoaya, una comunidad rural morelense con graves desafíos en el acceso a la educación y la cultura.
                     Además de la formación musical, hemos tejido alianzas con organizaciones que brindan a las participantes talleres de desarrollo humano, atención psicológica y apoyo alimentario.
                     Es para mí un honor trabjar con chicas tan talentosas y que ponen todo su empeño en superarse día con día.
-                    <br/><br/>Si deseas apoyarnos, puedes hacer una contribución a través de Pateron haciendo click en el link que está debajo. <br/>Agradeceremos de corazón tu ayuda.
+                    <br/><br/>Si deseas apoyarnos, puedes hacer una contribución a través de Patreon haciendo click en el link que está debajo. <br/>Agradeceremos de corazón tu ayuda.
                 </p>
                 :
 
@@ -48,7 +48,7 @@ return (
                     I am Luis Arturo Suaste, pianist and choir director. In June 2022 I founded the Atlacholoaya Girls Choir, located in a rural community with serious challenges in access to education and culture.
                      In addition to musical training, we have forged alliances with organizations that provide participants with human development workshops, psychological care, and nutritional support.
                      It is an honor for me to work with such talented girls who put all their effort into improving themselves day by day.
-                     <br/><br/>If you want to support us, you can make a contribution through Pateron by clicking on the link below. <br/>We will sincerely appreciate your support.
+                     <br/><br/>If you want to support us, you can make a contribution through Patreon by clicking on the link below. <br/>We will sincerely appreciate your support.
                 </p>
                 }
                 <a href="https://www.patreon.com/ContraCanto?l=es" target="_blank" rel="noreferrer noopener">
