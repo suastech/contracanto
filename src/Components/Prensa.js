@@ -5,11 +5,11 @@ function Prensa({isSpanish}) {
 
 return (
 
-<div id="prensa">
+<section className="section-box" id="prensa">
     {isSpanish?
-    <h1><span className="resaltado">Prensa</span> </h1>
+    <h1>Prensa </h1>
     :
-    <h1><span className="resaltado">Press</span> </h1>}   
+    <h1>Press </h1>}   
     
     <div className="contenido_prensa">
         <ul className="lista_enlaces_p">
@@ -19,7 +19,7 @@ return (
         </ul>
         <img src={prensa_foto} alt="Imagen de prensa"/>
     </div>
-</div>
+</section>
 
 )
  

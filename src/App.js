@@ -1,57 +1,30 @@
 import './App.css';
 import { useState } from "react";
-import imagen1 from "./imagenes/logobyn.jpg";
-import imagen2 from "./imagenes/Portada 7.jpeg";
 import Bienvenida from './Components/Bienvenida';
 import Musica from './Components/Musica';
 import Prensa from './Components/Prensa';
 import Apoyar from './Components/Apoyar';
 import Footer from './Components/Footer';
+import Nav from './Components/Nav';
+import Header from './Components/Header';
+import stripe from './imagenes/stripe.jpeg'
 
 function App() {
-
-  const [isSpanish, setIsSpanish] = useState(true)
-
-  const idioma = (lang) => {
-    setIsSpanish(lang)
-  }
-  
+const [isSpanish, setIsSpanish] = useState(true)
   
 return (
   <div className='main'>
-     <header>
-        <div className="translate">
-          <div className= {isSpanish?"idioma":"idiomaD"}
-          onClick={()=> idioma(true)} >Español</div>
-          <div className={isSpanish?"idiomaD":"idioma"} onClick={()=> idioma(false)}>English</div>
-        </div>
-
-        <img src={imagen1} alt="Imagen 1"/>
-        <img src={imagen2} alt="Imagen 2"/>
-      </header>
-      <nav>
-        {isSpanish?
-        <ul >
-            <li><a href="#Bienvenida">Coro</a></li>
-            <li><a href="#musica">Música</a></li>
-            <li><a href="#prensa">Prensa</a></li>
-            <li><a href="#apoyar">Apoyar</a></li>
-          </ul>
-        :
-          <ul >
-          <li><a href="#Bienvenida">Choir</a></li>
-          <li><a href="#musica">Music</a></li>
-          <li><a href="#prensa">Press</a></li>
-          <li><a href="#apoyar">Support</a></li>
-          </ul>}
-      </nav>
+    <Header isSpanish={isSpanish} setIsSpanish={setIsSpanish}/>
+    <Nav isSpanish={isSpanish}/>
     <Bienvenida isSpanish={isSpanish}/>
+    <div className='stripe'> <img src={stripe} alt="stripe"/></div>
     <Musica isSpanish={isSpanish}/>
+    <div className='stripe'> <img src={stripe} alt="stripe"/></div>
     <Prensa isSpanish={isSpanish}/>
+    <div className='stripe'> <img src={stripe} alt="stripe"/></div>
     <Apoyar isSpanish={isSpanish}/>
     <Footer/>
   </div>
-
 );
 }
 

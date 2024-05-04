@@ -1,5 +1,5 @@
 import '../style-sheets/Apoyar.css'
-import foto_apoyar from '../imagenes/presentación.jpg'
+import foto_apoyar from '../imagenes/coro3.jpeg'
 import patreon from "../imagenes/Patreon_logo.svg.png"
 import { useState } from 'react'
 
@@ -7,7 +7,8 @@ function Apoyar({isSpanish}) {
     const [isApoyar, setIsApoyar] = useState(false)
 
 return (
-    <div id="apoyar">    <div className="apoyar">
+    <section className="section-box" id="apoyar">  
+    <div className="apoyar">
     {isSpanish?
         <>
         <h1>Apoyar</h1>
@@ -22,8 +23,7 @@ return (
         We are an independent project. If you like our work, you can help us keep it going.
         Learn more about how you can support us.</p>
         </>
-        }
-
+    }
         <img src={foto_apoyar} alt="fotoapoyar"/>
         <button onClick={() => setIsApoyar(prev => !prev)}
         style={isApoyar ? {transform: 'rotate(180deg)'} : {} }
@@ -57,8 +57,7 @@ return (
             </div>
             )}
     </div>
-    </div>
-
+    </section>
 )
 
 }

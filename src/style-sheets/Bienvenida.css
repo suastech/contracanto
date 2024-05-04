@@ -1,20 +1,26 @@
 #Bienvenida {
-    text-align: center;
-    background-color: rgb(221, 221, 221);
+    background-color: #F2F2F2;
     padding: 20px 0px;
+    display: flex;
 }
 
-#Bienvenida p {
-    color: rgb(197, 69, 69);
-    font-size:2em;
+#Bienvenida img {
+    width: 500px;
+    margin-left: 40px;
+}
+#text-container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    color: #000000;
+    font-size:1.5em;
     line-height: 2;
-    margin: 20px 150px;
+    width: 60%; /* Ajusta el ancho del texto según sea necesario */
+    margin: 0 40px;
+    text-align: justify;
 }
 
-#foto-bienvenida {
-    width: 400px;
-    margin-top: 30px;
-}
+
+
+
 
 @media screen and (max-width: 550px) {
     #Bienvenida p {

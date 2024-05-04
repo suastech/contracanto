@@ -1,6 +1,7 @@
 #prensa {
-    background-image: url('../imagenes/Portada 3.jpeg');
-    padding: 20px 0px;
+/*     background-image: url('../imagenes/Portada 3.jpeg');
+ */    padding: 20px 0px;
+ background-color: rgb(231, 231, 231);
 
 }
 
@@ -32,7 +33,6 @@
     text-decoration: none;
     color: rgb(191, 49, 49);
 
-    background-color: #000000; /* Cambia #ffcc00 al color que desees para el resaltado */
 
 &:hover {
     text-decoration: underline;
