@@ -25,7 +25,7 @@ return (
     </>
     }
 
-    <a href="https://www.paypal.com/donate?token=XlK070JtAw8V5wiBKig6I4LwM5VBCkokhW-jk3cmMHTfiJUyhV__B8is8V-vLR0LN-bGF2wjAc54EpYH" target="_blank" rel="noreferrer noopener">
+    <a href="https://www.paypal.com/donate?token=b7P-dpC421D9kPkBox8vtrE0lUZ7K6aLmT1JSro6PV0y6ln_6VI0msScgF5crO1DD1xYgER2-4Dkn3Ah" target="_blank" rel="noreferrer noopener">
     <img className="support-image" src={comunidad} alt="patreon" id="comunidad"/>
     </a>
 
