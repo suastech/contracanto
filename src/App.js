@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from "react";
 import imagen1 from "./imagenes/logobyn.jpg";
-import imagen2 from "./imagenes/Portada 7.jpeg";
+import imagen2 from "./imagenes/Portada 8.jpg";
 import Bienvenida from './Components/Bienvenida';
 import Musica from './Components/Musica';
 import Prensa from './Components/Prensa';
