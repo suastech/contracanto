@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/contracanto/static/css/main.d0bbf8b2.css",
-    "main.js": "/contracanto/static/js/main.ca4627fc.js",
+    "main.css": "/contracanto/static/css/main.15e6df83.css",
+    "main.js": "/contracanto/static/js/main.ea6c6f7c.js",
     "static/js/787.02216e3b.chunk.js": "/contracanto/static/js/787.02216e3b.chunk.js",
     "static/media/prensa2.png": "/contracanto/static/media/prensa2.18d14433eb91ec46583d.png",
-    "static/media/Portada 5.jpeg": "/contracanto/static/media/Portada 5.673954ecf3b296565597.jpeg",
-    "static/media/Portada 3.jpeg": "/contracanto/static/media/Portada 3.264ab5ffe6fbe4e6a35c.jpeg",
+    "static/media/coro5.jpg": "/contracanto/static/media/coro5.f0db70e878eec6ff478c.jpg",
     "static/media/Portada 8.jpg": "/contracanto/static/media/Portada 8.0a16b03b863a19a95ee4.jpg",
+    "static/media/stripe.jpeg": "/contracanto/static/media/stripe.e2872304591684ff2010.jpeg",
     "static/media/logobyn.jpg": "/contracanto/static/media/logobyn.1802e7fa3cd2ae86944a.jpg",
     "static/media/instagram logo.png": "/contracanto/static/media/instagram logo.f0a99f089b23fadacf4e.png",
     "static/media/logo contracanto negro.jpg": "/contracanto/static/media/logo contracanto negro.9db4fc1e2f6edfde837e.jpg",
     "static/media/Patreon_logo.svg.png": "/contracanto/static/media/Patreon_logo.svg.1b79c3d456033d8796da.png",
     "index.html": "/contracanto/index.html",
-    "main.d0bbf8b2.css.map": "/contracanto/static/css/main.d0bbf8b2.css.map",
-    "main.ca4627fc.js.map": "/contracanto/static/js/main.ca4627fc.js.map",
+    "main.15e6df83.css.map": "/contracanto/static/css/main.15e6df83.css.map",
+    "main.ea6c6f7c.js.map": "/contracanto/static/js/main.ea6c6f7c.js.map",
     "787.02216e3b.chunk.js.map": "/contracanto/static/js/787.02216e3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0bbf8b2.css",
-    "static/js/main.ca4627fc.js"
+    "static/css/main.15e6df83.css",
+    "static/js/main.ea6c6f7c.js"
   ]
 }
