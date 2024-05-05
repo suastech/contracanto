@@ -10,7 +10,7 @@ function Bienvenida({isSpanish}) {
 return (
 
  <section className="section-box" id="Bienvenida">
-  <img src={foto_bienvenida} alt="foto bienvenida"/>
+  <img id="imagen-bienvenida" src={foto_bienvenida} alt="foto bienvenida"/>
   <div id="text-container">
     <h1>{text1}</h1>
     <p>{text2}<br/>{text3}</p>

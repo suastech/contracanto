@@ -1,8 +1,7 @@
 #prensa {
-/*     background-image: url('../imagenes/Portada 3.jpeg');
- */    padding: 20px 0px;
- background-color: rgb(231, 231, 231);
-
+/*     background-image: url('../imagenes/Portada 3.jpeg');*/
+padding: 20px 0px;
+background-color: rgb(231, 231, 231);
 }
 
 .contenido_prensa {
@@ -32,8 +31,6 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
     color: rgb(191, 49, 49);
-
-
 &:hover {
     text-decoration: underline;
 }   

@@ -5,7 +5,8 @@
 }
 
 #Bienvenida img {
-    width: 500px;
+    width: 50vw;
+    height: auto;
     margin-left: 40px;
 }
 #text-container {
@@ -13,22 +14,35 @@
     color: #000000;
     font-size:1.5em;
     line-height: 2;
-    width: 60%; /* Ajusta el ancho del texto según sea necesario */
+    width: 60%;
     margin: 0 40px;
     text-align: justify;
 }
 
+@media screen and (max-width: 1000px) {
+    #Bienvenida {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #Bienvenida img {
+        margin: 0 auto;
+        width: 80%;
+    }
+    #text-container {
+        margin: 0 auto;
+        width: 80%;
+        
+    }
+    
+
+}
 
 
-
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 780px) {
     #Bienvenida p {
         font-size: 15px;
         padding: 0px 0px;
         margin: 15px 10px;
     }
-    #foto-bienvenida {
-        width: 60vw;
-    }
+   
   }
