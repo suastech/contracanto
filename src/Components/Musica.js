@@ -5,7 +5,7 @@ function Musica({isSpanish}) {
 
 return (
     
-    <div id="musica">
+    <section className="section-box" id="musica">
         {isSpanish?
         <h1>Nuestra música</h1>:
         <h1>Our Music</h1>}
@@ -34,7 +34,7 @@ return (
         </div>
         */}
 
-    </div>
+    </section>
 
 ) 
 

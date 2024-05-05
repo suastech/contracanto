@@ -1,10 +1,8 @@
-.main {
-}
 
 .main h1 {
-  color: rgb(191, 49, 49);
+  color: rgb(0, 0, 0);
   margin: 0;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
 }
@@ -33,11 +31,11 @@ Header {
   align-items: center;
 }
 
-.idioma {
+.language {
   font-size: 20px;
   cursor: pointer;
   height: 100%;
-  width: 50%;
+  width: 50%; 
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -46,7 +44,7 @@ Header {
   pointer-events: none;
 }
 
-.idiomaD {
+.languageD {
   font-size: 20px;
   cursor: pointer;
   height: 100%;
@@ -58,9 +56,7 @@ Header {
 &:hover {
   background-color: rgb(224, 223, 223, 0.7);
 }
-&:active {
-  transform: scale(0.9);;
-}
+
 }
 
 Header img {
@@ -72,7 +68,7 @@ nav {
   top: 0;
   display: flex;
   z-index: 2;
-  background-color: #0c0c0c;
+  background-color: black;
   height: 60px;
 }
 
@@ -102,6 +98,24 @@ transition: background-color 0.3s, color 0.3s; /* Transición suave en los cambi
   color: #c5c5c5; /* Cambio de color de texto en el hover */
   }
 }
+
+.stripe {
+  width: 100%;
+  height: 120px;
+  background-color: black;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+
+}
+.stripe img {
+  height: 100px;
+  width: 500px;
+  margin: 0 auto;
+}
+
 
 @media screen and (max-width: 550px) {
   .main h1 {
