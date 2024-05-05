@@ -1,51 +1,24 @@
 .apoyar {
     text-align: center;
-    background-color: rgba(213, 212, 212, 0.5); /* El cuarto valor define la opacidad, donde 0 es completamente transparente y 1 es completamente opaco */
-
-    background-size: cover;
-    /*background-image: url('../imagenes/fondo.jpg');
-    background-repeat: no-repeat; 
-    background-position: center;
-    background-size: cover;*/
+    background-color: rgb(200, 200, 200);
     padding-bottom: 20px;
 }
 
 .apoyar p {
     font-size: 25px;
-    color: rgb(0, 0, 0);
+    color: rgb(191, 49, 49);
     line-height: 1.5;
     margin: 10px 90px;
 }
 
-.apoyar img {
-    width: 60vw;
-    margin-top: 10px;
-}
-
-.apoyar button {
-    width: 70vw;
-    height: 40px;
-    border-radius: 20px;
+.support-image {
+    height: 130px;
     cursor: pointer;
-    margin-top: 40px;
-    background-color: rgb(191, 49, 49);
-    background-image: url('../imagenes/seemore2.png'); 
-    background-repeat: no-repeat; 
-    background-position: center;
-    background-size: contain;
-    border: 0px;
-    &:hover {
-        background-color: rgb(238, 69, 69);
-    }
-    &:active {
-        transform: scale(0.95);
-    } 
+    margin: 20px 40px;
 }
 
 #patreon {
-    width: 130px;
-    cursor: pointer;
-    margin-top: 20px;
+   
 &:hover {
     box-shadow: 0 0 5px rgb(201, 63, 63);
 }
